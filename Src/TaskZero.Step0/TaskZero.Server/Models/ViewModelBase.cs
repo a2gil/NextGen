@@ -17,8 +17,8 @@ namespace TaskZero.Server.Models
         protected ViewModelBase(string pageTitle = "")
         {
             Settings = TaskZeroApplication.AppSettings;
-            PageTitle = pageTitle.IsNullOrWhitespace() 
-                ? Settings.ApplicationTitle 
+            PageTitle = pageTitle.IsNullOrWhitespace()
+                ? Settings.ApplicationTitle
                 : pageTitle;
         }
 
